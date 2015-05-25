@@ -1,0 +1,41 @@
+div figure.target {
+  border: 1px solid red;
+  position: absolute !important;
+  top:10px;
+  background: rgba(0,0,0,0.2);
+  z-index: 10000;
+}
+svg {
+  display:block;
+}
+
+
+controls div {
+  width: 16px;
+  height:16px;
+  z-index: 90;
+  position: absolute;
+  left: auto;
+  bottom: 2px;
+}
+.ui-rotatable-handle {
+  right: 20px;
+}
+.ui-forward-handle{
+
+  background-color: green;
+  right: 60px;
+}
+.ui-backwards-handle{
+  background-color: blue;
+  right: 40px;
+}
+.ui-destroy-handle{
+  right: 80px;
+  background-color: red;
+}
+
+.ui-rotate-handle{
+  right: 20px;
+  background-color: yellow;
+}
